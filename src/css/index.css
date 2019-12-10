@@ -1,0 +1,146 @@
+/* GLOBALS */
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+/* LOGO */
+.logo {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+.logo a {
+    display:contents;
+}
+/* IMAGE */
+img {
+    border:0;
+    max-width:100%;
+    max-height:100%;
+}
+/* OVERLAY */
+.overlay {
+    position:absolute;
+    top:100%; 
+    left:0; 
+    right:0;
+    bottom:0;
+    background-color:rgba(0,0,0,0.5);
+}
+/* BODY */
+body {
+    margin: 0;
+    /*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;*/
+    /*font-family: 'Gelasio';*/
+    font-family: 'Headland One';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* ROW */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* COLUMN */
+.column {
+    padding: 5px 20px;
+    margin:0 auto;
+    height:100%;
+}
+.column-1 {
+    width: 100%;
+}
+.column-2 {
+    width: 50%;
+}
+.column-3 {
+    width: 33.333%;
+}
+.column-4 {
+    width: 25%;
+}
+.column-5 {
+    width:20%;
+}
+/* a | Link */
+a {
+    text-decoration:none;
+    display:inline-block;
+    padding:5px 10px;
+}
+/* NAV : NAVIGATION */
+nav {
+    border-bottom:1px solid lightgray;
+}
+nav .column {
+    margin:auto;
+}
+nav h1 {
+    display:none;
+}
+/* FOOTER */
+footer {
+    background-color: #fbfbfb;
+    background-image: linear-gradient(45deg, #3b93b50f, transparent);
+}
+footer [title~=logo] {
+    align-self: center;
+}
+footer .column {
+    margin:initial;
+}
+footer ul {
+    list-style-type:none;
+    padding:0;
+}
+footer li {
+    line-height:2rem;
+}
+footer .column:last-child {
+    text-align:center;
+    border-top:1px solid lightgray;
+    color: gray;
+}
+footer li a{
+    padding:0;
+
+}
+footer .column:last-child a {
+    color: gray;
+    text-transform:uppercase;
+    font-size:.7em;
+}
+@media screen and (max-width:500px) {
+    .column,
+    .column-1,
+    .column-2,
+    .column-3,
+    .column-4,
+    .column-5 {
+        width: 50%;
+        padding: 5px;
+    }
+
+}
+@media screen and (max-width:500px){
+    .column, 
+    .column-1, 
+    .column-2, 
+    .column-3, 
+    .column-4,
+    .column-5
+    {
+        width:100%;
+        padding:5px;
+    }
+}

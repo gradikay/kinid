@@ -1,0 +1,40 @@
+/* SIGN IN AND REGISTER STYLING */
+.Section{
+    /*height: calc( 700px - 200px );*/
+    margin:30px auto;
+}
+.Section input {
+    height: 2.5rem;
+    width: 18rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 1rem;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+.Section input[type=submit] {
+    background-color: #162741;
+    color:white;
+}
+.Section label {
+    margin-left: 15px;
+}
+.Section legend {
+    padding-bottom: 25px;
+}
+.Section .red{
+    color:red;
+}
+.Section fieldset {
+    margin-top: 40px;
+}
+.section_divider:last-child {
+    text-align:center;
+}
+.section_divider ul {
+    text-align:left;
+    background-color:#f7f7f7;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-radius:3px;
+}

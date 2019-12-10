@@ -1,0 +1,90 @@
+.container {
+    border: 1px solid lightgray;
+    padding: 15px;
+    border-radius: 3px;
+}
+/* HEADER */
+/* Button */
+.Header{
+    border-bottom:1px solid lightgray;
+}
+.Header button {
+    background-color:white;
+    background-image:unset;
+    border:1px solid lightgray;
+    margin:auto 10px;
+    color:black;
+    padding: 10px;
+}
+/* Input */
+.Header input {
+    border-radius:3px;
+    border:1px solid lightgray;
+    padding:12px;
+    width:20%;
+}
+/* ASIDE */
+.Aside {
+    width: 35%;    
+}
+.Aside section {
+    border: 1px solid lightblue;
+    padding:10px;
+    border-radius:3px;
+    margin-bottom: 10px;
+}
+.Aside section div{
+    display:inline-block;
+}
+.Aside section div:first-child{
+    display:inline-block;
+    width:30%;
+}
+.Aside section div:last-child{
+    display:inline-block;
+    width:70%;
+}
+.Aside img {
+    padding-right: 10px;
+    vertical-align: text-bottom;
+}
+.Aside section h2{
+    font-size:1.2em;
+    font-weight:900;
+}
+.Aside section h3{
+    font-size:.95em;
+}
+.Aside section h4{
+    font-size:.85em;
+}
+.Aside section h5{
+    font-size:.75em;
+}
+.Aside section h2,
+.Aside section h3,
+.Aside section h4,
+.Aside section h5
+{
+    margin:0;
+    line-height:1.7em;
+}
+/* MAIN MX ASIDE */
+.Aside,
+.Main {
+    display: inline-block;
+    vertical-align: text-top;
+    margin-bottom: 30px;
+    height: 900px;
+    overflow: auto;
+    border-bottom: 1px solid lightgray;
+    background-color: white;
+}
+.Aside .aside_content,
+.Main .main_content {
+    align-self: center;
+}
+/* MAIN */
+.Main {
+    width: 64%;
+} 

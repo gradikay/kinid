@@ -1,0 +1,41 @@
+/* HEADER */
+.Header {
+    text-align: center;
+    background-color: #162741;
+    color: white;
+}
+.Header h2 {
+    font-size:3em;
+}
+/* MAIN */
+.Main {
+    background-color: #fbfbfb;
+}
+/* TABLE OF CONTENT */
+.table_of_content {
+    border:1px solid lightgray;
+}
+.table_of_content div div:first-child {
+    border: 1px solid lightgray;
+    margin: 20px auto;
+    border-radius: 3px;
+    text-align: justify;
+    align-self: center;
+    background-color: white;
+}
+.table_of_content div div:last-child {
+    border: 1px solid lightgray;
+    margin: 20px auto;
+    border-radius: 3px;
+    background-color: white;
+}
+/* INTRODUCTION */
+.common_content div div
+{
+    border: 1px solid lightgray;
+    margin: 20px auto;
+    padding: 5px 50px;
+    border-radius:3px;
+    text-align:justify;
+    background-color:white;
+}
