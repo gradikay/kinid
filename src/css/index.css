@@ -120,7 +120,7 @@ footer .column:last-child a {
     text-transform:uppercase;
     font-size:.7em;
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:800px) {
     .column,
     .column-1,
     .column-2,
@@ -128,19 +128,21 @@ footer .column:last-child a {
     .column-4,
     .column-5 {
         width: 50%;
-        padding: 5px;
+        padding: 5px 15px;
     }
 
 }
 @media screen and (max-width:500px){
-    .column, 
-    .column-1, 
-    .column-2, 
-    .column-3, 
+    .column,
+    .column-1,
+    .column-2,
+    .column-3,
     .column-4,
-    .column-5
-    {
-        width:100%;
-        padding:5px;
+    .column-5 {
+        width: 100%;
+        padding: 5px 15px;
+    }
+    .line {
+        border-bottom: 1px solid #eaeaea;
     }
 }

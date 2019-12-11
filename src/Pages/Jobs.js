@@ -44,12 +44,12 @@ class Jobs extends Component {
                             {/* Description */}
                             <h3>More Than 5,000 Jobs Found</h3> <hr />
                             {/* Sorting */}
-                            <p>Sort by : <a href='#' >Relevancy | Date</a> </p>
+                            <p>Sort by : <a href='#1' >Relevancy | Date</a> </p>
                             {/* Single Job */}
                             <section>
                                 {/* Image */}
                                 <div>
-                                    <img src={img1} alt='#' />
+                                    <img src={img1} alt='imagesss' />
                                 </div>
                                 {/* Excerpt */}
                                 <div>

@@ -21,21 +21,21 @@ class App extends Component {
         return (
             <Router>
                 <nav>
-                    <div class="row">
-                        <div class="column column-5">
-                            <span class="logo">
+                    <div className="row">
+                        <div className="column column-5">
+                            <span className="logo">
                                 <Link to="/">
                                     <img src={img1} alt="Kinid Logo" />
                                 </Link>
                             </span>
                             <h1>KINID</h1>
                         </div>
-                        <div class="column column-2">
+                        <div className="column column-2">
                             <Link to="/jobs">Jobs</Link>
                             <Link to="/signin">Upload/Build Resume</Link>
                             <Link to="#">Career Development &amp; Learning</Link>
                         </div>
-                        <div class="column column-4">
+                        <div className="column column-4">
                             <Link to="/signin">Sign In</Link>
                             <Link to="/register">Register</Link>
                             <Link to="/signin">Post Jobs</Link>

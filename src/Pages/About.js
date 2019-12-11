@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
+//import { Link } from 'react-router-dom'
 import Footer from '../Component/Footer'
 import styles from '../css/about.module.css'
 import img1 from '../images/congo.png'
@@ -29,13 +29,6 @@ const France = {
 }
 
 class About extends Component {
-    constructor(props) {
-        super(props);
-    }
-    //static defaultProps = {
-    //    center: [59.938043, 30.337157],
-    //    zoom: 11
-    //};
     render() {
         return (
             <>

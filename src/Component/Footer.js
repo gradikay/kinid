@@ -13,11 +13,11 @@ class Footer extends Component {
                 {/* Footer Item */}
                 <div className='row'>
                     {/* Website Name */}
-                    <div className='column column-5' title='logo'>
-                        <img src={logo} title='KinId Logo' />
+                    <div className='column column-5 line' title='logo'>
+                        <img src={logo} alt='KinId Logo' />
                     </div>
                     {/* General List */}
-                    <div className='column column-5'>
+                    <div className='column column-5 line'>
                         {/* Title */}
                         <h4>General</h4>
                         {/* List */}
@@ -32,7 +32,7 @@ class Footer extends Component {
                         </ul>
                     </div>
                     {/* Browse KINID */}
-                    <div className='column column-5'>
+                    <div className='column column-5 line'>
                         {/* Title */}
                         <h4>Browse KinId</h4>
                         {/* List */}
@@ -45,7 +45,7 @@ class Footer extends Component {
                         </ul>
                     </div>
                     {/* Busness Solution */}
-                    <div className='column column-5'>
+                    <div className='column column-5 line'>
                         {/* Title */}
                         <h4>Busness Solution</h4>
                         {/* List */}
@@ -57,7 +57,7 @@ class Footer extends Component {
                         </ul>
                     </div>
                     {/* Directories */}
-                    <div className='column column-5'>
+                    <div className='column column-5 line'>
                         {/* Title */}
                         <h4>Directories</h4>
                         {/* List */}
@@ -83,7 +83,7 @@ class Footer extends Component {
                             <Link to='/useragreement#how'>Contact Us</Link> |
                             <Link to='/useragreement#general'>General Terms</Link> |
                             <Link to='/useragreement#kinid'>Community Guidelines</Link> |
-                            <a href='#'>Language</a>
+                            <a href='#1'>Language</a>
                         </p>
                     </div>
                 </div>

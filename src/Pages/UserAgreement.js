@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
+//import { Link } from 'react-router-dom'
 import Footer from '../Component/Footer'
 import styles from '../css/useragreement.module.css'
-import img1 from '../images/congo.png'
+//import img1 from '../images/congo.png'
 
 
 class UserAgreement extends Component {
@@ -209,7 +209,7 @@ class UserAgreement extends Component {
                                     <li>We will not include your content in advertisements for the products and services of third parties to others without your separate consent (including sponsored content). However, we have the right, without payment to you or others, to serve ads near your content and information, and your social actions may be visible and included with ads, as noted in the Privacy Policy.</li>
                                     <li>We will get your consent if we want to give others the right to publish your content beyond the Services. However, if you choose to share your post as "public", we will enable a feature that allows other Members to embed that public post onto third-party services, and we enable search engines to make that public content findable though their services. Learn More</li>
                                     <li>While we may edit and make format changes to your content (such as translating it, modifying the size, layout or file type or removing metadata), we will not modify the meaning of your expression.</li>
-                                    <li>Because you own your content and information and we only have non-exclusive rights to it, you may choose to make it available to others, including under the terms of a <a href='#'>Creative Commons license.</a></li>
+                                    <li>Because you own your content and information and we only have non-exclusive rights to it, you may choose to make it available to others, including under the terms of a <a href='1#'>Creative Commons license.</a></li>
                                 </ul>
                                 <p>You and KinId agree that we may access, store, process and use any information and personal data that you provide in accordance with the terms of the Privacy Policy and your choices (including settings).</p>
                                 <p>By submitting suggestions or other feedback regarding our Services to KinId, you agree that KinId can use and share (but does not have to) such feedback for any purpose without compensation to you.</p>
@@ -240,7 +240,7 @@ class UserAgreement extends Component {
                                 <h4>3.3. Other Content, Sites and Apps</h4>
                                 {/* Description */}
                                 <p>By using the Services, you may encounter content or information that might be inaccurate, incomplete, delayed, misleading, illegal, offensive or otherwise harmful. KinId generally does not review content provided by our Members or others. You agree that we are not responsible for others' (including other Members') content or information. We cannot always prevent this misuse of our Services, and you agree that we are not responsible for any such misuse. You also acknowledge the risk that you or your organization may be mistakenly associated with content about others when we let connections and followers know you or your organization were mentioned in the news. Members have choices about this feature.</p>
-                                <p>You are responsible for deciding if you want to access or use third-party apps or sites that link from our Services. If you allow a third-party app or site to authenticate you or connect with your KinId account, that app or site can access information on KinId related to you and your connections. Third-party apps and sites have their own legal terms and privacy policies, and you may be giving others permission to use your information in ways we would not. Except to the limited extent it may be required by applicable law, KinId is not responsible for these other sites and apps - use these at your own risk. Please see our <a href='#'>Privacy Policy</a>.</p>
+                                <p>You are responsible for deciding if you want to access or use third-party apps or sites that link from our Services. If you allow a third-party app or site to authenticate you or connect with your KinId account, that app or site can access information on KinId related to you and your connections. Third-party apps and sites have their own legal terms and privacy policies, and you may be giving others permission to use your information in ways we would not. Except to the limited extent it may be required by applicable law, KinId is not responsible for these other sites and apps - use these at your own risk. Please see our <a href='#1'>Privacy Policy</a>.</p>
                             </div>
                             {/* Excerpt */}
                             <div className='column column-3'>
@@ -319,7 +319,7 @@ class UserAgreement extends Component {
                                     <li>Sections 4, 6, 7, and 8.2 of this Contract;</li>
                                     <li>Any amounts owed by either party prior to termination remain owed after termination.</li>
                                 </ul>
-                                <p>You can visit our <a href=''>Help Center</a> to close your account.</p>
+                                <p>You can visit our <a href='#1'>Help Center</a> to close your account.</p>
                             </div>
                             {/* Excerpt */}
                             <div className='column column-3'>
@@ -449,7 +449,7 @@ class UserAgreement extends Component {
                                 <h3>10. How To Contact Us </h3>
                                 {/* Description */}
                                 <p>If you want to send us notices or service of process, please contact us:</p>
-                                <p><a href=''>Online</a> OR BY <a href=''>Email</a></p>
+                                <p><a href='#1'>Online</a> OR BY <a href='#1'>Email</a></p>
                             </div>
                             {/* Excerpt */}
                             <div className='column column-3'>

@@ -10,13 +10,13 @@ button {
     font-size: 1em;
     padding-left: 3rem;
     padding-right: 3rem;
-    border: 5px solid #f8a300;
     background-color: #fbfbfb;
-    background-image: linear-gradient(45deg, #152842, #152842);
-    border-radius: 3px;
-    color: white;
+    color: black;
     font-weight: bolder;
-    margin: auto;
+    border: 2px solid #FF9800;
+    background-image: linear-gradient(45deg, #FF5722, #FF9800);
+    border-radius: 3px;
+    margin: .5rem auto;
 }
 .header_section {
     text-align:center;
@@ -47,11 +47,11 @@ button {
     height:395px;
     overflow:hidden;
 }
-    .header_section:nth-child(2) p {
-        font-size: 4em;
-        font-weight: bold;
-        color: #152842;
-    }
+.header_section:nth-child(2) p {
+    font-size: 4em;
+    font-weight: bold;
+    color: #152842;
+}
 /* MAIN */
 .main_section h3 {
     font-size:2em;
@@ -85,8 +85,8 @@ button {
     background-color: white;
     color: black;
     margin: 10px;
-    border-radius: 50px;
-    border: 5px solid #162741;
+    border-radius: 3px;
+    border: 1px solid #162741;
     transition: color ease-in-out 500ms;
     transition: background ease-in-out 600ms;
 }
@@ -107,19 +107,45 @@ button {
 }
 
 @media screen and (max-width:500px) {
+
     .header_section input[type=search] {
-        margin-top: 1.5rem;
-        margin-bottom: 1.5rem;
+        margin: .5rem auto;
     }
+
     .header_section:nth-child(2) {
         height: 100%;
-        overflow:unset;
+        overflow: unset;
     }
+
     .main_section:first-child {
-        text-align:center;
-        padding-bottom:20px
+        text-align: center;
+        padding-bottom: 20px
     }
+
     .main_section .column:first-child {
-        border-bottom:10px solid lightgray;
+        border-bottom: 10px solid lightgray;
+    }
+
+    .header_section:nth-child(2) p {
+        font-size: 2em;
+    }
+
+    .header h2 {
+        font-size: 2em;
+    }
+
+    .Header button { 
+
+    }
+    .main_section:nth-child(3) li {
+        display: inline-block;
+        padding: 5px;
+        width: 45%;
+        font-size: smaller;
+        margin: 5px;
+        border-radius: 3px;
+    }
+    .main_section:last-child {
+        padding-top: 0px;
     }
 }

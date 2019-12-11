@@ -63,14 +63,14 @@ class Home extends Component {
                     {/* Section */}
                     <div className={['row', styles.main_section].join(' ')}>
                         {/* How Can We Help */}
-                        <div className='column column-1'>
+                        <div className='column column-1 line'>
                             {/* Title */}
                             <h3>How KinId can help</h3>
                             {/* Paragraph */}
                             <p>MAKING YOUR JOB SEARCH AND HIRING CANDIDATE EASIER</p>
                         </div>
                         {/* Salary Tools */}
-                        <div className='column column-3'>
+                        <div className='column column-3 line'>
                             {/* Title */}
                             <h4>Salary Tools</h4>
                             {/* Description */}
@@ -79,10 +79,10 @@ class Home extends Component {
                                 salary, but you can also see what skills you are missin to
                                 earn more money.</p> <br />
                             {/* Link */}
-                            <a href='#'>Learn More</a>
+                            <a href='#1'>Learn More</a>
                         </div>
                         {/* Quick Apply */}
-                        <div className='column column-3'>
+                        <div className='column column-3 line'>
                             {/* Title */}
                             <h4>Quick Apply</h4>
                             {/* Description */}
