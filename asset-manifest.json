@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "/kinid/static/css/main.2fde2a33.chunk.css",
-    "main.js": "/kinid/static/js/main.a2b685e8.chunk.js",
-    "main.js.map": "/kinid/static/js/main.a2b685e8.chunk.js.map",
-    "runtime-main.js": "/kinid/static/js/runtime-main.d580ea9f.js",
-    "runtime-main.js.map": "/kinid/static/js/runtime-main.d580ea9f.js.map",
-    "static/js/2.9ef1908e.chunk.js": "/kinid/static/js/2.9ef1908e.chunk.js",
-    "static/js/2.9ef1908e.chunk.js.map": "/kinid/static/js/2.9ef1908e.chunk.js.map",
-    "index.html": "/kinid/index.html",
-    "precache-manifest.d881798193f4321de8a5759b42d68d13.js": "/kinid/precache-manifest.d881798193f4321de8a5759b42d68d13.js",
-    "service-worker.js": "/kinid/service-worker.js",
-    "static/css/main.2fde2a33.chunk.css.map": "/kinid/static/css/main.2fde2a33.chunk.css.map",
-    "static/js/2.9ef1908e.chunk.js.LICENSE": "/kinid/static/js/2.9ef1908e.chunk.js.LICENSE",
-    "static/media/21178.jpg": "/kinid/static/media/21178.1bb8ca2b.jpg",
-    "static/media/23260.jpg": "/kinid/static/media/23260.9d9287b5.jpg",
-    "static/media/about.module.css": "/kinid/static/media/35976.fa741e57.jpg",
-    "static/media/2782405.jpg": "/kinid/static/media/2782405.c71bf16f.jpg",
-    "static/media/congo.png": "/kinid/static/media/congo.2da6fa8d.png",
-    "static/media/logo.png": "/kinid/static/media/logo.3cf3bf69.png"
+    "main.css": "/gradikay/kinid/static/css/main.ee96dd2b.chunk.css",
+    "main.js": "/gradikay/kinid/static/js/main.2039124a.chunk.js",
+    "main.js.map": "/gradikay/kinid/static/js/main.2039124a.chunk.js.map",
+    "runtime-main.js": "/gradikay/kinid/static/js/runtime-main.72ea6310.js",
+    "runtime-main.js.map": "/gradikay/kinid/static/js/runtime-main.72ea6310.js.map",
+    "static/js/2.a3019b0f.chunk.js": "/gradikay/kinid/static/js/2.a3019b0f.chunk.js",
+    "static/js/2.a3019b0f.chunk.js.map": "/gradikay/kinid/static/js/2.a3019b0f.chunk.js.map",
+    "index.html": "/gradikay/kinid/index.html",
+    "precache-manifest.4585aad2c00755d477879c6441b967d0.js": "/gradikay/kinid/precache-manifest.4585aad2c00755d477879c6441b967d0.js",
+    "service-worker.js": "/gradikay/kinid/service-worker.js",
+    "static/css/main.ee96dd2b.chunk.css.map": "/gradikay/kinid/static/css/main.ee96dd2b.chunk.css.map",
+    "static/js/2.a3019b0f.chunk.js.LICENSE": "/gradikay/kinid/static/js/2.a3019b0f.chunk.js.LICENSE",
+    "static/media/21178.jpg": "/gradikay/kinid/static/media/21178.1bb8ca2b.jpg",
+    "static/media/23260.jpg": "/gradikay/kinid/static/media/23260.9d9287b5.jpg",
+    "static/media/about.module.css": "/gradikay/kinid/static/media/35976.fa741e57.jpg",
+    "static/media/2782405.jpg": "/gradikay/kinid/static/media/2782405.c71bf16f.jpg",
+    "static/media/congo.png": "/gradikay/kinid/static/media/congo.2da6fa8d.png",
+    "static/media/logo.png": "/gradikay/kinid/static/media/logo.3cf3bf69.png",
+    "static/media/scrum.png": "/gradikay/kinid/static/media/scrum.ef1581aa.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d580ea9f.js",
-    "static/js/2.9ef1908e.chunk.js",
-    "static/css/main.2fde2a33.chunk.css",
-    "static/js/main.a2b685e8.chunk.js"
+    "static/js/runtime-main.72ea6310.js",
+    "static/js/2.a3019b0f.chunk.js",
+    "static/css/main.ee96dd2b.chunk.css",
+    "static/js/main.2039124a.chunk.js"
   ]
 }
