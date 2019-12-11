@@ -88,6 +88,10 @@ nav .column {
 nav h1 {
     display:none;
 }
+nav span.humberger {
+    width: 60px;
+    display: inline-block;
+}
 /* FOOTER */
 footer {
     background-color: #fbfbfb;
@@ -144,5 +148,34 @@ footer .column:last-child a {
     }
     .line {
         border-bottom: 1px solid #eaeaea;
+    }
+    .row-sd {
+        width: 100%;
+        /*border: 1px solid lightgray;*/
+        position:relative;
+    }
+    /*.row-sd .logo_section {
+        border-bottom: 1px solid lightgray;
+    }*/
+    .row-sd a {
+        display: block;
+        border-bottom: 1px solid lightgray;
+    }
+    .row-sd a.logo{
+        border-bottom:0;
+        display:contents;
+    }
+
+    .row-sd span.humberger {
+        position: absolute;
+        top:5%;
+        right:0;
+        padding:10px;
+    }
+    .row-sd .humberger_content {
+        display:contents;
+    }
+    footer [title~=logo] {
+        width: 25%;
     }
 }

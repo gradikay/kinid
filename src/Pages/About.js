@@ -52,7 +52,7 @@ class About extends Component {
                     {/*  Mission Statment */}
                     <div className='row'>
                         {/*  Section */}
-                        <div className={['column column-2', styles.section].join(' ')}>
+                        <div className={['column column-2 line', styles.section].join(' ')}>
                             {/*  Title */}
                             <h2>Mission Statement</h2>
                             {/*  Statement */}
