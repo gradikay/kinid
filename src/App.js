@@ -16,43 +16,51 @@ import Register from './Pages/Register';
 import UserAgreement from './Pages/UserAgreement'
 import PageNotFound from './Pages/PageNotFound'
 
+const toggle = () => {
+    let x = document.getElementById('humberger');
+    if (x.className === 'humberger_content') {
+        x.className += ' responsive';
+    } else {
+        x.className = 'humberger_content';
+    }
+}
 
 class App extends Component {
 
-    constructor(props) {
-        super(props);
-        this.state = {
-            open: false
-        }        
-    }
+    //constructor(props) {
+    //    super(props);
+    //    this.state = {
+    //        open: true
+    //    }        
+    //}
 
-    humberger = () => {
-        this.setState(prevState => ({
-            open: !prevState.open
-        }));
-    }
+    //humberger = () => {
+    //    this.setState(prevState => ({
+    //        open: !prevState.open
+    //    }));
+    //}
 
     render() {
         return (
             <Router>
                 <nav>
-                    <div className={["row row-sd"].join(' ')}>
+                    <div className={"row row-sd"}>
                         <div className="column column-5 logo_section">
                             <span className="logo">
                                 <Link to="/" className='logo'>
                                     <img src={img1} alt="Kinid Logo" />
-                                    <span className='humberger' onClick={this.humberger} ><img src={img2} alt="hamburger menu" /></span>
                                 </Link>
                             </span>
+                            <span className='humberger' onClick={toggle} ><img src={img2} alt="hamburger menu" /></span>
                             <h1>KINID</h1>
                         </div>
-                        <div className="humberger_content" style={this.state.open ? { display: 'contents' } : { display: 'none' }}>
-                            <div className="column column-2">
+                        <div id='humberger' className="humberger_content">
+                            <div className="column column-3">
                                 <Link to="/jobs">Jobs</Link>
-                                <Link to="/signin">Upload/Build Resume</Link>
-                                <Link to="#">Career Development &amp; Learning</Link>
+                                <Link to="/signin">Resume</Link>
+                                <Link to="#">Learning</Link>
                             </div>
-                            <div className="column column-4">
+                            <div className="column column-3">
                                 <Link to="/signin">Sign In</Link>
                                 <Link to="/register">Register</Link>
                                 <Link to="/signin">Post Jobs</Link>

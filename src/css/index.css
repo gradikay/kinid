@@ -91,6 +91,10 @@ nav h1 {
 nav span.humberger {
     width: 60px;
     display: inline-block;
+    visibility:hidden;
+}
+.humberger_content{
+    display:contents;
 }
 /* FOOTER */
 footer {
@@ -168,12 +172,13 @@ footer .column:last-child a {
 
     .row-sd span.humberger {
         position: absolute;
-        top:5%;
+        top:0;
         right:0;
         padding:10px;
+        visibility:visible;
     }
-    .row-sd .humberger_content {
-        display:contents;
+    .humberger_content.responsive {
+        display:none;
     }
     footer [title~=logo] {
         width: 25%;
