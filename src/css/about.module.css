@@ -116,7 +116,17 @@
         background-size: contain;
     }
     .Section_about .about_content,
-    .Section_whatWeDo .about_content {
+    .Section_whatWeDo .about_content,
+    .Section_mission .section,
+    .overlay,
+    .Section_leader {
         height: auto;
+    }
+    .card h3 {
+        font-size: smaller;
+    }
+
+    .card h4 {
+        font-size: small;
     }
 }
