@@ -110,3 +110,13 @@
     border-radius: 50%;
     border: 5px solid #162741;
 }
+@media screen and (max-width:600px){
+    .Section_about,
+    .Section_whatWeDo {
+        background-size: contain;
+    }
+    .Section_about .about_content,
+    .Section_whatWeDo .about_content {
+        height: auto;
+    }
+}

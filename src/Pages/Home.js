@@ -136,7 +136,7 @@ class Home extends Component {
                             <button type='button'>Post a Job</button>
                         </div>
                         {/* Image */}
-                        <div className='column column-2' >
+                        <div className='column column-2' title='image' >
                             <img src={img2} alt='Designed by katemangostar'/>
                         </div>
                     </div>
