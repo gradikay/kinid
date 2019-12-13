@@ -58,7 +58,7 @@ class App extends Component {
                             <div className="column column-3">
                                 <Link to="/jobs">Jobs</Link>
                                 <Link to="/signin">Resume</Link>
-                                <Link to="/about">About </Link>
+                                <Link to="/about">About</Link>
                             </div>
                             <div className="column column-3">
                                 <Link to="/signin">Sign In</Link>
